@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="20" height="20" viewBox="0 0 20 20"
+	 overflow="visible" enable-background="new 0 0 20 20" xml:space="preserve">
+<title>currency-dollar</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="currency-dollar">
+		<path fill="#0067B1" d="M10,20c5.523,0,10-4.477,10-10c0-5.523-4.477-10-10-10C4.477,0,0,4.477,0,10C0,15.523,4.477,20,10,20z
+			 M11,15v2H9v-2H6v-2h4.584h1.413C12.563,13,13,12.553,13,12c0-0.557-0.449-1-1.003-1h-1.413H8c-1.657,0-3-1.343-3-3s1.343-3,3-3h1
+			V3h2v2h3v2H9.415H7.991C7.451,7,7,7.448,7,8c0,0.556,0.443,1,0.991,1h1.424H12c1.656,0,3,1.343,3,3c0,1.656-1.344,3-3,3H11z"/>
+	</g>
+</g>
+</svg>

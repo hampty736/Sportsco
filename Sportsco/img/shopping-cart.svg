@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="20" height="20" viewBox="0 0 20 20"
+	 overflow="visible" enable-background="new 0 0 20 20" xml:space="preserve">
+<title>shopping-cart</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="shopping-cart">
+		<path id="Combined-Shape" fill="#0067B1" d="M3,5l1.333,4H4c-1.657,0-3,1.343-3,3c0,1.656,1.343,3,3,3h13v-2H4.007
+			C3.451,13,3,12.557,3,12c0-0.553,0.447-1,0.999-1H10.5H17l3-9H4V0.997C4,0.453,3.548,0,2.991,0H0v2h2L3,5z M5,20
+			c1.104,0,2-0.896,2-2s-0.896-2-2-2s-2,0.896-2,2S3.896,20,5,20z M15,20c1.104,0,2-0.896,2-2s-0.896-2-2-2s-2,0.896-2,2
+			S13.896,20,15,20z"/>
+	</g>
+</g>
+</svg>

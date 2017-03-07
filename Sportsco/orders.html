@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script type="text/javascript">
+
+    <!--
+    function sidebar() {
+        var bar = document.getElementById('sidebar');
+        var barText = document.getElementById('sbText');
+        var box = document.getElementById('content');
+        if (bar.style.width < '250px'){
+            bar.style.width = '250px';
+      
+            barText.style.display = 'block';
+            box.style.float = 'left';
+            box.style.width = '73%';/*564px*/
+
+        } else {
+            bar.style.width = '15px';
+        
+            barText.style.display = 'none';
+            box.style.width = '73%';
+            box.style.float = 'none';
+
+        }
+    }
+    //-->
+</script>
+<!--<script type="text/javascript" src="js/script.js"> </script> !!need to move function into script file without breaking sidebar collapse!! --> 
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" sizes="196x196" href="img/touch/touch-icon-196x196.png">
+        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+
+        
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#222222">
+
+        <!-- SEO: If mobile URL is different from desktop URL, add a canonical link to the desktop page -->
+        <!--
+        <link rel="canonical" href="http://www.example.com/" >
+        -->
+
+        <!-- Add to homescreen for Chrome on Android -->
+        <!--
+        <meta name="mobile-web-app-capable" content="yes">
+        -->
+
+        <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+        <!--
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="">
+        -->
+
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        <!--
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+        -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+    </head>
+    <body>
+            <header>             
+                <ul id="mainNavUl"> <!-- !!Add social media Icons!! -->              
+                    <li class="navFloatRight">
+                        <a href=' '>Log Out
+                        </a>
+                    </li>
+                    <li class="navFloatRight">
+                        <a href=' '>
+                            <div>
+                            <img src="img/cog.svg">
+                            </div>
+                        </a>
+                    </li>
+                        
+                </ul>
+                <div id="nav";>
+                    <div id="handle"><!-- !!Make list img and rest of header responsive!! !! optimize and use css tricks article to change svg images-->
+                        <img src="img/listRoyal.svg" class="sidebarBtn" alt="Click to toggle the sidebar" onclick="sidebar()">
+                    </div>
+                    <img id="headerLogo" src="img/sportscoLogo.svg" alt="Sportsco Logo">
+                    <form action="action_page.php" class="searchContainer">
+                        <input class="searchForm" autocomplete="off" autofocus=""  name="search_query" value="" tabindex="1" placeholder="Search S.O. #" title="Search"  spellcheck="false" type="text"></input>
+                        <button class="searchBtn" type="submit" value="Search">
+                            <a class="searchimg" href="orders.html">
+                              <img src="img/search.svg" alt="Home page">
+                            </a> 
+                        </button>                          
+                    </form>
+                </div>             
+            </header>
+            
+                <div id="sidebar" style="width: 15px;">
+                    <div id="sbText" style="display: none;">
+                           <li class="mainNavLi">
+                            <a href='orders.html'>
+                                <div class="sidebarImgDiv">
+                                    <img src="img/user.svg" class="sidebarIcon">
+                                </div>
+                                <div class="sidebarMenuText">Dashboard</div>
+                            </a>
+                        </li>
+                        <li class="mainNavLi">
+                            <a href='shipping.html'>
+                                <div class="sidebarImgDiv">
+                                    <img src="img/shipping.svg" class="sidebarIcon">
+                                </div>
+                                <div class="sidebarMenuText">Shipping & Receiving</div>
+                            </a>
+                        </li>
+                        <li class="mainNavLi">
+                            <a href='contact2.html'>
+                                <div class="sidebarImgDiv">
+                                    <img src="img/phone.svg" class="sidebarIcon">
+                                </div>
+                                <div class="sidebarMenuText">Contact Us</div>
+                            </a>
+                        </li>
+                   
+                        <li class="mainNavLi">
+                            <a href=' '>
+                                <div class="sidebarImgDiv">
+                                    <img src="img/hour-glass.svg" class="sidebarIcon">
+                                </div>
+                                <div class="sidebarMenuText">Order History</div>
+                            </a>
+                        </li>
+                         <li class="mainNavLi">
+                            <a href=' '>
+                                <div class="sidebarImgDiv">
+                                    <img src="img/shopping-cart.svg" class="sidebarIcon">
+                                </div>
+                                <div class="sidebarMenuText">Request Quote</div>
+                            </a>
+                        </li>
+                        <li class="mainNavLi">
+                            <a href=' '>
+                                <div class="sidebarImgDiv">
+                                    <img src="img/currency-dollar.svg" class="sidebarIcon">
+                                </div>
+                                <div class="sidebarMenuText">Billing and Invoicing</div>
+                            </a>
+                        </li>
+                        <li class="mainNavLi">
+                            <a href=' '>
+                                <div class="sidebarImgDiv">
+                                    <img src="img/payroll.svg" class="sidebarIcon">
+                                </div>
+                                <div class="sidebarMenuText">Payroll</div>
+                            </a>
+                        </li>
+                        
+                    </div>
+                </div>
+                <div id="content" style="width: 70%; float: none; border-left: solid 0px #d3d3d3;" >
+                    <ul id="orderNavUl" style="">
+                        
+                         <li class="orderNavLi">
+                            <a href=' '>
+                                <div class="orderNavDiv">
+                                    <img src="img/user.svg" class="orderNavIcon">
+                                </div>
+                                <div class="orderNavText">Dashboard</div>
+                            </a>
+                        </li>
+                        <li class= "orderNavLi" ><a href=''>
+                            <div class="orderNavDiv">
+                                <img src='img/trend.svg' class='orderNavIcon'>
+                            </div>
+                            <div class='orderNavText'>Due Today</div>
+                            </a>
+                        </li>
+                        <li class="orderNavLi">
+                            <a href=' '>
+                                <div class="orderNavDiv">
+                                    <img src="img/flag.svg" class="orderNavIcon">
+                                </div>
+                                <div class="orderNavText" style="padding-left: 10px;">Alerts</div>
+                            </a>
+                        </li>
+                    </ul>
+
+                        
+                    <div class="orderContent" style="width: 85%; height: auto;">
+                            <header><h1>Open Orders</h1><div class="h3Container"><h3 class="h3Date">October 15, 2016</h3></div></header>
+                            
+                                <div class="orderCard">
+                                </div>
+                                <div class="orderCard">
+                                </div>
+                                <div class="orderCard">
+                                </div>
+                    </div>
+                </div>   
+            
+        </div>
+        <footer>
+                www.sportscoimprinting.com<br>
+                1200-A Glendale Milford Road<br>
+                Cincinnati Ohio 45251<br>
+                513-641-5111<br>
+        </footer>
+        
+
+        <script src="js/vendor/jquery-2.1.0.min.js"></script>
+        <script src="js/helper.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body> 
+</html>
